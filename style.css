@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-image: url(Imagenes/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header, footer{
+    background-color: rgba(255, 255, 122, 0.4);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+img{
+    width: 100%;
+    margin: auto;
+}
+
+.logo{
+    width: 140px;
+}
+
+.logo img{
+    border-radius: 50%;
+}
+
+.row{
+    display: flex;
+    gap: 40px;
+    background-color: rgba(255, 255, 100, 0.3);
+    margin: 15px 0;
+    padding: 30px;
+    justify-content: center;
+
+}
+
+.col2img{
+    width: 45%;
+    margin: auto;
+    display: block;
+}
+
+.col2{
+    border: 1px dashed rgb(218, 218, 100);
+    width:  40%;
+    box-shadow: 5px 5px 5px 5px rgb(173, 173, 173);
+    padding: 20px;
+}
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+}
