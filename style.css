@@ -21,6 +21,29 @@ header, footer{
     gap: 30px;
 }
 
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    box-shadow: 7px -3px 68px 5px rgb(9, 99, 217);
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
 
 img{
     width: 100%;
@@ -39,23 +62,29 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     gap: 40px;
     background-color: rgba(255, 255, 100, 0.3);
     margin: 15px 0;
     padding: 30px;
 }
 
-.col2img{
-    width: 45%;
+.col2 img{
+    text-align: center;
+    width: 75%;
     margin: auto;
     display: block;
 }
 
 .col2{
     border: 1px dashed rgb(218, 218, 100);
-    width:  450px;
+    width: 47%;
     box-shadow: 5px 5px 5px 5px rgb(173, 173, 173);
     padding: 20px;
+}
+
+.col3 {
+    width: 30%;
 }
 
 body{
@@ -78,3 +107,26 @@ body{
 #dife{
     border-radius: 50%;
 }
+
+.imagen{
+    width: 25%;
+    margin: auto;
+}
+
+.imagen img {
+    border-radius: 50%;
+    border: 8px solid greenyellow;  
+}
+
+.imagen img:hover{
+    filter: sepia();
+    transform: scale(0.7);
+    transition: 0.5s ease-in-out;
+}
+
+/*
+
+
+
+
+*/
