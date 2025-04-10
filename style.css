@@ -104,6 +104,44 @@ body{
     border-radius: 20px;
 }
 
+.imagen2 {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen2 img {
+    width: 200px;
+    padding: 20px;
+    margin: auto;
+}
+
+.imagen2 .filter1:hover {
+    filter: hue-rotate(90deg);
+    transform: scale(1.1);
+}
+
+.imagen2 .filter2:hover {
+    filter: blur(5px);
+    transform: scale(1.1);
+}
+
+.imagen2 .filter3:hover {
+    filter: brightness(1.5);
+    transform: scale(1.1);
+}
+
+.imagen2 .filter4:hover {
+    filter: grayscale(50%);
+    transform: scale(1.1);
+}
+
+.imagen2 .filter5:hover {
+    filter: saturate(200%);
+    transform: scale(1.1);
+}
+
 #dife{
     border-radius: 50%;
 }
